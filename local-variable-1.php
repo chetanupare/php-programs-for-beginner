@@ -1,13 +1,13 @@
 <?php
-$x=5;
+$y=5;
 
 function myLocalvariable()
          {
-           $x=9;
-           echo "variable x in function :$x";
+           $y=9;
+           echo "variable x in function :$y";
          }
 myLocalvariable();
-echo "variable x outside function : $x";
+echo "variable x outside function : $y";
 
 
 ?>
